@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="automation.GeneralTest">
+        <methods>
+          <include name="setValidPhones"/>
+          <include name="bfClass"/>
+          <include name="secondValidEmailTest"/>
+          <include name="setInvalidEmails"/>
+          <include name="eighthInvalidEmailTest"/>
+          <include name="twelwethInvalidEmailTest"/>
+          <include name="seventhInvalidEmailTest"/>
+          <include name="secondInvalidphoneTest"/>
+          <include name="sixthInvalidEmailTest"/>
+          <include name="fnegativeTestWithSpacesInAddress"/>
+          <include name="ninethValidEmailTest"/>
+          <include name="setInvalidPhones"/>
+          <include name="secondInvalidEmailTest"/>
+          <include name="enegativeTestWithSpacesInName"/>
+          <include name="setValidEmails"/>
+          <include name="thirdInalidphoneTest"/>
+          <include name="firstInvalidphoneTest"/>
+        </methods>
+      </class> <!-- automation.GeneralTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
