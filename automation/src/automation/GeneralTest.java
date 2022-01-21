@@ -20,7 +20,8 @@ import org.testng.annotations.Test;
 /***
  * Automated test for the form on https://docs.google.com/forms/d/e/1FAIpQLScVG7idLWR8sxNQygSnLuhehUNVFti0FnVviWCSjDh-JNhsMA/viewform
  * 
- * For reporting TestNG is used.
+ * For reporting, TestNG is used.
+ * In the code, you need to set your chrome driver path.
  * @author Utku ULKU
  *
  */
@@ -32,7 +33,7 @@ public class GeneralTest {
 	ArrayList<String> invalidPhones = new ArrayList<String>();
 	WebDriver driver;
 	String formUrl = "https://docs.google.com/forms/d/e/1FAIpQLScVG7idLWR8sxNQygSnLuhehUNVFti0FnVviWCSjDh-JNhsMA/viewform";
-	String chromeDriverPath = "C:\\Users\\user\\Desktop\\Ýþ\\Yurtdýþý\\Playtech - Estonya\\chromedriver.exe";
+	String chromeDriverPath = "Chrome Driver Folder\\chromedriver.exe"; //set your chrome driver path.
 	String chromeDriver = "webdriver.chrome.driver";
 	String formResponseUrl = "https://docs.google.com/forms/d/e/1FAIpQLScVG7idLWR8sxNQygSnLuhehUNVFti0FnVviWCSjDh-JNhsMA/formResponse";
 	WebElement nameTxtBox;
